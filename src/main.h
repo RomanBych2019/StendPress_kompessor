@@ -18,12 +18,12 @@
 
 struct soft_date
 {
-  uint8_t YEAR_OF_RELEASE = 0x15;
-  uint8_t MONTH_OF_RELEASE = 0x0B;
-  uint8_t DAY_OF_RELEASE = 0x1B;
+  uint8_t YEAR_OF_RELEASE = 0x16;
+  uint8_t MONTH_OF_RELEASE = 0x00;
+  uint8_t DAY_OF_RELEASE = 0x1C;
   long SERIAL_NUMBER = 0x02;
   uint8_t MODEL_CODE = 0x20;
-  uint8_t FIRMWARE_VERSION = 0x17;
+  uint8_t FIRMWARE_VERSION = 0x18;
 } soft;
 
 struct NextRS232
